@@ -35,6 +35,9 @@ $(document).ready(function(){
 	);
 
 	// 粒子效果
-	particlesJS.load('particles-js', 'assets/particles.json');
+	// particlesJS.load('particles-js', 'assets/particles.json');
 	
+	// 黑洞效果
+	blackhole();
+
 });
