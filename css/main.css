@@ -6,7 +6,7 @@
 body {
     font: 16px/1.8 "Lato", "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", arial, sans-serif;
     color: #333;
-    background: rgb(140, 87, 165);
+    background: rgba(0, 110, 255, 0.8);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -56,6 +56,7 @@ ul, ol {
     margin-top: -200px;
     margin-left: -480px;
     background-color: rgba(255,255,255, 0.75);
+    z-index: 100;
 }
 @media (max-width: 960px) {
     .main {
