@@ -4,8 +4,8 @@
 
 # 效果
 
-[x] 每日必应图背景：https://github.com/ldc4/ldc4-server
-[x] 黑洞粒子效果：https://github.com/whxaxes/canvas-test/tree/master/src/Particle-demo/blackhole
+- [x] 每日必应图背景：https://github.com/ldc4/ldc4-server  
+- [x] 黑洞粒子效果：https://github.com/whxaxes/canvas-test/tree/master/src/Particle-demo/blackhole  
 
 # 样式
 
