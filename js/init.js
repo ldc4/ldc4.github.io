@@ -4,6 +4,15 @@
 * 添加粒子效果
 */
 $(document).ready(function(){
+	// 设置背景
+	var date = new Date();
+	var year = date.getFullYear();
+	var month = date.getMonth() + 1;
+	var day = date.getDate();
+	var formatStr = year + '-' + (month < 10 ? '0' + month : month) + '-' + (day < 10 ? '0' + day : day);
+	$("body").css("background", "url('http://static.weedust.com/bing_" + formatStr + "') center center no-repeat rgba(255,255,255, 0.75)");
+	$("body").css("background-size", "cover");
+	$("body").css("background-attachment", "fixed");
 
 	// 随机格言
 	$.get('assets/motto.json').success(

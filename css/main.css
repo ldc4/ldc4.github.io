@@ -6,7 +6,7 @@
 body {
     font: 16px/1.8 "Lato", "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", arial, sans-serif;
     color: #333;
-    background: url('https://api.weedust.com/node/bing/picImg') center center no-repeat rgba(255,255,255, 0.75);
+    background: rgb(217, 222, 228);
     background-size: cover;
     background-attachment: fixed;
 }
