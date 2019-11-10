@@ -67,13 +67,20 @@ ul, ol {
         min-width: 239px;
     }
 }
-.main h1 {
+.main .title {
+    font-size: 32px;
     text-align: center;
     position: relative;
     top: -10px;
     opacity: 0;
 }
-
+.weapp-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 57px;
+    height: 57px;
+}
 
 .quote {
     position: relative;

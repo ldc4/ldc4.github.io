@@ -3,7 +3,7 @@ var ani = function () {
     var DELAY_STEP = 200;
     var animationOptions = { opacity: 1, top: 0};
 
-    $('h1').animate(animationOptions).promise()
+    $('.title').animate(animationOptions).promise()
             .pipe(animateMain)
             .pipe(animateLocationIcon);
 
