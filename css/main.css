@@ -185,3 +185,18 @@ ul, ol {
     top: 0px;
     bottom: 0px;
 }
+
+.beian {
+    width: 100%;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.beian a {
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
