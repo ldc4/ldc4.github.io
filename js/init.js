@@ -10,7 +10,7 @@ $(document).ready(function(){
 	var month = date.getMonth() + 1;
 	var day = date.getDate();
 	var formatStr = year + '-' + (month < 10 ? '0' + month : month) + '-' + (day < 10 ? '0' + day : day);
-	$("body").css("background", "url('http://static.weedust.com/bing_" + formatStr + "') center center no-repeat rgba(255,255,255, 0.75)");
+	$("body").css("background", "url('https://bing-1251945389.cos.ap-guangzhou.myqcloud.com/bing_" + formatStr + "') center center no-repeat rgba(255,255,255, 0.75)");
 	$("body").css("background-size", "cover");
 	$("body").css("background-attachment", "fixed");
 
