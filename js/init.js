@@ -47,6 +47,6 @@ $(document).ready(function(){
 	// particlesJS.load('particles-js', 'assets/particles.json');
 	
 	// 黑洞效果
-	blackhole();
+	// blackhole();
 
 });
